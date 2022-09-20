@@ -16,7 +16,7 @@ However, not every student has the system resources to host a virtual machine. C
 machine server where students can log in, and spin up a machine to use for their studies. This project seeks to fill this gap <br>
 and provide a service to students. They will be able to access a webpage and log into a protected page. There, they will be able <br>
 to select a virtual machine, an operating system, and create it. After this, they will be able to remote into their new machine. <br>
-This will give them easy access to virtual machines, without utilizing their own system’s resources. Currently, there are several<br>
+This will give them easy access to virtual machines, without utilizing their own systemâ€™s resources. Currently, there are several<br>
  free bare-metal hypervisors that include web interfaces. These web interfaces include APIs; our end goal will be to create our <br>
  own web application that utilizes these APIs, enabling specific user permissions.<br>
 <br>
