@@ -1,0 +1,55 @@
+
+<!-- saved from url=(0087)file:///C:/Users/Matthew/Documents/CIS%20Student%20Remote%20VM%20Server%20Proposal.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Proposal</title>
+</head>
+<body>
+<h1>
+Proposal: CIS Student Remote Virtual Machine Server<br>
+Matthew Bader and Sean Garey
+</h1>
+
+<p>
+<b>Intro:<br></b>
+Computer Information Science students at Vermont Technical College have a need for virtual machines throughout their education. <br>
+However, not every student has the system resources to host a virtual machine. Currently, at Vermont Tech, there is no virtual <br>
+machine server where students can log in, and spin up a machine to use for their studies. This project seeks to fill this gap <br>
+and provide a service to students. They will be able to access a webpage and log into a protected page. There, they will be able <br>
+to select a virtual machine, an operating system, and create it. After this, they will be able to remote into their new machine. <br>
+This will give them easy access to virtual machines, without utilizing their own system’s resources. Currently, there are several<br>
+ free bare-metal hypervisors that include web interfaces. These web interfaces include APIs; our end goal will be to create our <br>
+ own web application that utilizes these APIs, enabling specific user permissions.<br>
+<br>
+<b>Project Description:<br></b>
+In this project, we will create a virtual machine server that allows users to create and configure virtual machines via a web interface. <br>
+They can then remote into this virtual machine and use it for their CIS classes. The expected server will allow students to log in via a <br>
+password-protected web interface where they can then select a configuration for the virtual machine that they need. Once the student has<br>
+ selected the hardware and software configuration for their virtual machine, the server will start a virtual machine with the selected <br>
+ setting. The student is then able to remote into the virtual machine that they created and use the machine as they would any other virtual <br>
+ machine. <br>
+To properly allow the student to use the virtual machine the application will need to properly configure the hardware and networking settings<br>
+ that were selected and start the virtual machine. <br>
+ 	<br>
+<b>Similar Products:<br></b>
+There are multiple similar products that do many of the same things that we are looking to do with our project. Products like<br>
+ Nitanix AHV Virtualization, VMware vSphere, Citrix DaaS, and Proxmox all have the ability to create and manage multiple virtual<br>
+ machines. The main difference that many of these products have that will be solved with our project is the price of these <br>
+ products. These products are enterprise solutions and can cost tens of thousands of dollars in some cases. The next thing that<br>
+ is different about our project will be the ability for a user to create and use a virtual machine without accessing having the <br>
+ ability to access the other virtual machines running. Many of these similar products do not have the ability for a user to <br>
+ configure and use a virtual machine without also being able to access all of the other machines running.<br>
+<br><br>
+<b>Deliverables:<br></b>
+The following are the deliverables for this project:<br>
+Server running a bare metal hypervisor connected to its web interface<br>
+Custom permission-based web interface to control the existing off-the-shelf web interface allowing users to create and configure 
+virtual machines<br>
+Documentation of complete project including testing<br>
+Three required presentations and required course documentation<br>
+
+</p>
+
+
+
+
+</body></html>
